@@ -1,0 +1,25 @@
+$git init                                    :used for initializing the git.when u exeute "git init" command it add a ".git" folder to your local repository folder
+$git remote add origin <remote repo path>    :used to add remote repository 
+$git pull origin  master/main		     :pull hole project from git remote rep to git local rep	
+$git push				     :push your own changes into central repo with "git push"
+$git status                                  :Tells you which files are added to index and are ready to commit
+$git add <file name>		             :lets you add files to your index
+$git add -A				     :add all the files/folder to local rep
+$git commit  <file name> -m "commit message" :commit the file to local repo
+$git commit -a -m "adding git folder"	     :commit all the files/folder to local repo
+$git log				     :see log
+$git branch <branch name>		     :create a branch
+$git checkout <branch name>		     :used for change mentioned branch in <branch name>
+$git checkout <first 8 cher from log> <filename>       :it is used to recover the old code by the help of log
+$git merge <branch name>		     :marge child branch to master branch //always remember when u margr you should be in master branch
+$git rebase <branch name>		     :marge child branch to maste in linear way // execute 1'st in child branch then master baranch
+
+$git push origin <branchname>		     :code push to central repository
+
+
+
+$ssh-keygen                                  :used for generate ssh key
+$ssh -T git@github.com                       :used for authenticate         
+
+
+
