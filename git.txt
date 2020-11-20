@@ -15,7 +15,7 @@ $git merge <branch name>		     :marge child branch to master branch //always rem
 $git rebase <branch name>		     :marge child branch to maste in linear way // execute 1'st in child branch then master baranch
 
 $git push origin <branchname>		     :code push to central repository
-
+$git push -f origin master          :code push force fully in master branch
 
 
 $ssh-keygen                                  :used for generate ssh key
