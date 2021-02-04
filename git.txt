@@ -23,3 +23,29 @@ $ssh -T git@github.com                       :used for authenticate
 
 
 
+
+PROBLEMS FACE
+
+1)
+Prob:
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+ans:
+Try deleting index.lock file in your .git directory.
+$rm -f .git/index.lock
+
+2)
+prob:
+fatal: does not appear to be a git repository
+ans:
+To update the URL for origin you could do:
+$git remote set-url origin git@skarp.beanstalkapp.com:/gittest.git
+
+
+
+
+
