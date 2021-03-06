@@ -9,6 +9,7 @@ $git commit  <file name> -m "commit message" :commit the file to local repo
 $git commit -a -m "adding git folder"	     :commit all the files/folder to local repo
 $git log				     :see log
 $git branch <branch name>		     :create a branch
+$git push -d origin master       :delete remote branch
 $git checkout <branch name>		     :used for change mentioned branch in <branch name>
 $git checkout <first 8 cher from log> <filename>       :it is used to recover the old code by the help of log
 $git merge <branch name>		     :marge child branch to master branch //always remember when u margr you should be in master branch
