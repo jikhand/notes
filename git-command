@@ -5,3 +5,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/khandajitesh/spring-cloud-config-store.git
 git push -u origin main
+
+git branch -m main master  //use to change branch
+git fetch origin           // If you are planning on basing your work on an upstream.branch that already exists at the remote
+git branch -u origin/master master  //If you are planning to push out a new local branch that,will track its remote counterpart,you may want to use,"git push -u" to set the upstream config as you push.
